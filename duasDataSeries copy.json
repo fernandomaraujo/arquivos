@@ -1,0 +1,195 @@
+[
+	{
+		"refId":"A",
+		"fields":[
+			{
+				"name":"time",
+				"type":"time",
+				"typeInfo":{
+					"frame":"time.Time",
+					"nullable":true
+				},
+				"config":{
+					
+				},
+				"values":[
+					1638194455078,
+					1638194475078,
+					1638194495078
+				],
+				"entities":{
+					
+				},
+				"state":{
+					"scopedVars":{
+						"__series":{
+							"text":"Series",
+							"value":{
+								"name":"Series (A)"
+							}
+						},
+						"__field":{
+							"text":"Field",
+							"value":{
+								
+							}
+						}
+					},
+					"seriesIndex":0
+				}
+			},
+			{
+				"name":"A-series",
+				"type":"number",
+				"typeInfo":{
+					"frame":"float64",
+					"nullable":true
+				},
+				"labels":{
+					
+				},
+				"config":{
+					
+				},
+				"values":[
+					2.8613835362282867,
+					2.9961205832504234,
+					2.641764514207109
+				],
+				"entities":{
+					
+				},
+				"state":{
+					"scopedVars":{
+						"__series":{
+							"text":"Series",
+							"value":{
+								"name":"Series (A)"
+							}
+						},
+						"__field":{
+							"text":"Field",
+							"value":{
+								
+							}
+						}
+					},
+					"seriesIndex":0,
+					"range":{
+						"min":-2.847981704169682,
+						"max":30.916480691418865,
+						"delta":33.764462395588545
+					}
+				}
+			}
+		],
+		"length":1080
+	},
+	{
+		"refId":"B",
+		"fields":[
+			{
+				"name":"time",
+				"type":"time",
+				"typeInfo":{
+					"frame":"time.Time",
+					"nullable":true
+				},
+				"config":{
+					
+				},
+				"values":[
+					1638194455078,
+					1638194475078,
+					1638194495078
+				],
+				"entities":{
+					
+				},
+				"state":{
+					"scopedVars":{
+						"__series":{
+							"text":"Series",
+							"value":{
+								"name":"Series (B)"
+							}
+						},
+						"__field":{
+							"text":"Field",
+							"value":{
+								
+							}
+						}
+					},
+					"seriesIndex":1
+				}
+			},
+			{
+				"name":"B-series",
+				"type":"number",
+				"typeInfo":{
+					"frame":"float64",
+					"nullable":true
+				},
+				"labels":{
+					
+				},
+				"config":{
+					
+				},
+				"values":[
+					28.469114921257543,
+					28.757734589915618,
+					28.63116573753673
+				],
+				"entities":{
+					
+				},
+				"state":{
+					"calcs":{
+						"sum":28426.71230682017,
+						"max":30.916480691418865,
+						"min":22.202188696189623,
+						"logmin":22.202188696189623,
+						"mean":26.321029913722377,
+						"last":26.312945768577947,
+						"first":28.469114921257543,
+						"lastNotNull":26.312945768577947,
+						"firstNotNull":28.469114921257543,
+						"count":1080,
+						"nonNullCount":1080,
+						"allIsNull":false,
+						"allIsZero":false,
+						"range":8.714291995229242,
+						"diff":-2.1561691526795954,
+						"delta":7225.261923271545,
+						"step":-0.49940172388873094,
+						"diffperc":-0.07573713333355545,
+						"previousDeltaUp":true
+					},
+					"scopedVars":{
+						"__series":{
+							"text":"Series",
+							"value":{
+								"name":"Series (B)"
+							}
+						},
+						"__field":{
+							"text":"Field",
+							"value":{
+								
+							}
+						}
+					},
+					"seriesIndex":1,
+					"range":{
+						"min":-2.847981704169682,
+						"max":30.916480691418865,
+						"delta":33.764462395588545
+					}
+				}
+			}
+		],
+		"length":1080
+	}
+]
