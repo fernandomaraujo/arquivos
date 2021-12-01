@@ -1,0 +1,259 @@
+[
+	{
+		"name":"Zabbix server: CPU idle time",
+		"refId":"A",
+		"fields":[
+			{
+				"name":"Time",
+				"type":"time",
+				"typeInfo":{
+					"frame":"time.Time"
+				},
+				"config":{
+					
+				},
+				"values":[
+					1638360660000,
+					1638360720000,
+					1638360780000,
+					1638360840000,
+					1638360900000,
+					1638360960000,
+					1638361020000
+				],
+				"entities":{
+					
+				},
+				"state":{
+					"scopedVars":{
+						"__series":{
+							"text":"Series",
+							"value":{
+								"name":"Zabbix server: CPU idle time"
+							}
+						},
+						"__field":{
+							"text":"Field",
+							"value":{
+								
+							}
+						}
+					},
+					"seriesIndex":0
+				}
+			},
+			{
+				"name":"Value",
+				"type":"number",
+				"typeInfo":{
+					"frame":"float64",
+					"nullable":true
+				},
+				"config":{
+					"custom":{
+						"scopedVars":{
+							"__zbx_host":{
+								"text":"",
+								"value":"Zabbix server"
+							},
+							"__zbx_host_name":{
+								"text":"",
+								"value":"Zabbix server"
+							},
+							"__zbx_item":{
+								"text":"",
+								"value":"CPU idle time"
+							},
+							"__zbx_item_interval":{
+								"text":"",
+								"value":"1m"
+							},
+							"__zbx_item_key":{
+								"text":"",
+								"value":"system.cpu.util[,idle]"
+							},
+							"__zbx_item_name":{
+								"text":"",
+								"value":"CPU idle time"
+							}
+						}
+					}
+				},
+				"values":[
+					59.825674,
+					98.704447,
+					98.93066,
+					82.44548,
+					92.863709,
+					54.987469,
+					85.738157
+				],
+				"entities":{
+					
+				},
+				"state":{
+					"scopedVars":{
+						"__series":{
+							"text":"Series",
+							"value":{
+								"name":"Zabbix server: CPU idle time"
+							}
+						},
+						"__field":{
+							"text":"Field",
+							"value":{
+								
+							}
+						}
+					},
+					"seriesIndex":0,
+					"range":{
+						"min":16.613286000000002,
+						"max":98.93066,
+						"delta":82.317374
+					}
+				}
+			}
+		],
+		"length":7
+	},
+	{
+		"name":"Zabbix server: Memory utilization",
+		"refId":"B",
+		"fields":[
+			{
+				"name":"Time",
+				"type":"time",
+				"typeInfo":{
+					"frame":"time.Time"
+				},
+				"config":{
+					
+				},
+				"values":[
+					1638360677269,
+					1638360737291,
+					1638360797310,
+					1638360857329,
+					1638360917351,
+					1638360977373,
+					1638361037394
+				],
+				"entities":{
+					
+				},
+				"state":{
+					"scopedVars":{
+						"__series":{
+							"text":"Series",
+							"value":{
+								"name":"Zabbix server: Memory utilization"
+							}
+						},
+						"__field":{
+							"text":"Field",
+							"value":{
+								
+							}
+						}
+					},
+					"seriesIndex":1
+				}
+			},
+			{
+				"name":"Value",
+				"type":"number",
+				"typeInfo":{
+					"frame":"float64",
+					"nullable":true
+				},
+				"config":{
+					"custom":{
+						"scopedVars":{
+							"__zbx_host":{
+								"text":"",
+								"value":"Zabbix server"
+							},
+							"__zbx_host_name":{
+								"text":"",
+								"value":"Zabbix server"
+							},
+							"__zbx_item":{
+								"text":"",
+								"value":"Memory utilization"
+							},
+							"__zbx_item_interval":{
+								"text":"",
+								"value":"0"
+							},
+							"__zbx_item_key":{
+								"text":"",
+								"value":"vm.memory.utilization"
+							},
+							"__zbx_item_name":{
+								"text":"",
+								"value":"Memory utilization"
+							}
+						}
+					}
+				},
+				"values":[
+					16.613286000000002,
+					16.878350999999995,
+					16.890765000000002,
+					29.236098,
+					17.496571000000003,
+					20.555892,
+					18.856655000000003
+				],
+				"entities":{
+					
+				},
+				"state":{
+					"calcs":{
+						"sum":136.52761800000002,
+						"max":29.236098,
+						"min":16.613286000000002,
+						"logmin":16.613286000000002,
+						"mean":19.50394542857143,
+						"last":18.856655000000003,
+						"first":16.613286000000002,
+						"lastNotNull":18.856655000000003,
+						"firstNotNull":16.613286000000002,
+						"count":7,
+						"nonNullCount":7,
+						"allIsNull":false,
+						"allIsZero":false,
+						"range":12.622811999999996,
+						"diff":2.2433690000000013,
+						"delta":52.035359,
+						"step":-11.739526999999995,
+						"diffperc":0.13503463432821183,
+						"previousDeltaUp":false
+					},
+					"scopedVars":{
+						"__series":{
+							"text":"Series",
+							"value":{
+								"name":"Zabbix server: Memory utilization"
+							}
+						},
+						"__field":{
+							"text":"Field",
+							"value":{
+								
+							}
+						}
+					},
+					"seriesIndex":1,
+					"range":{
+						"min":16.613286000000002,
+						"max":98.93066,
+						"delta":82.317374
+					}
+				}
+			}
+		],
+		"length":7
+	}
+]
